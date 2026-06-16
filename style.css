@@ -2,3 +2,20 @@
     --primary : 
     --greenColor :#4CAF4F
 }
+.blackcolor{
+   color :var(--primary)! important;
+}
+    
+.textgreen{
+    color:var(--greenColor);
+}
+
+.textgreen:hover{
+    color:var(--greenColor); 
+}   
+ .bggreen{
+    background: var(--greenColor);
+ } 
+ .bggreen:hover{
+    background-color: --greenColor;
+ }
