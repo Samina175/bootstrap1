@@ -1,6 +1,5 @@
 :root{
-    --primary : 
-    --greenColor :#4CAF4F
+    --greenColor : #4CAF4F
 }
 .blackcolor{
    color :var(--primary)! important;
@@ -11,11 +10,11 @@
 }
 
 .textgreen:hover{
-    color:var(--greenColor); 
+    color: var(--greenColor); 
 }   
  .bggreen{
     background: var(--greenColor);
  } 
  .bggreen:hover{
-    background-color: --greenColor;
+    background-color:  var(--greenColor);
  }
